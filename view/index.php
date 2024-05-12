@@ -102,6 +102,8 @@ require '../src/DateController.php';
         </li>
         <h2>Present Time</h2>
     </ul>
+    <h3>Intervalle</h3>
+    <?php echo $interval->format('%Y années, %m mois, %d jours, %H heures, %i minutes, %s secondes') ?>
 </main>
 </body>
 </html>
