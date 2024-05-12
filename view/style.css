@@ -1,0 +1,27 @@
+ul {
+    list-style: none; /* Supprime les puces des éléments de liste */
+}
+
+.destination {
+    display:flex;
+    gap:1rem;
+}
+.switchAM {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.switchPM {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.present {
+    display:flex;
+    gap:1rem;
+}
